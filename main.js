@@ -1,5 +1,5 @@
-let items = document.getElementsByClassName('items');
+let item = document.getElementById('recipes');
 function change() {
-    items.style.backgroundColor = 'blue';
+    item.style.backgroundColor = 'blue';
 }
-items.onmouseover = change;
+item.onmouseover = change;
