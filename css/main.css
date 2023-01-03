@@ -61,6 +61,7 @@ nav {
     background-color: #555555;
     font-family: 'Alice', 'serif';
     font-size: 20px;
+    justify-content: center;
 }
 
 nav li{
