@@ -45,15 +45,6 @@ header {
     box-shadow: 15px 5px 15px;
 }
 
-.hero-text{
-    color:#555555;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    transform: translate(-50%,-50%);
-    line-height: 0;
-}
-
 nav {
     display: flex;
     color:white;
@@ -88,4 +79,40 @@ nav a{
 
 nav a:hover{
     color:white;
+}
+
+section {
+    width: 28%;
+    align-items: center;
+    padding: 20px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2, p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section img {
+    width: 100%;
+}
+
+footer {
+    background-color: #555555;
+    color: white;
+}
+
+footer p {
+    padding: 5px;
 }
