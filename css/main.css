@@ -100,6 +100,10 @@ h3 {
     padding-bottom: 10px;
 }
 
+section:hover {
+    opacity: 0.5;
+}
+
 section img {
     width: 100%;
 }
@@ -117,6 +121,6 @@ footer p {
     height: 12em;
 }
 
-.items {
-
+@media screen  {
+    
 }
