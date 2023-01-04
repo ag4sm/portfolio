@@ -12,8 +12,6 @@ body, html{
 body{
     background-color: lightgray;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
     font-family: 'Alice', 'serif';
 }
 
@@ -24,12 +22,12 @@ header {
 
 #header-text h1{
     font-family: 'Sacramento', cursive;
-    font-size: 100px;
+    font-size: 8rem;
     text-align: center;
     padding-top: 5%;
     float: left;
     width: 60%;
-    height: 400px;
+    height: 25rem;
 }
 
 #header-image {
@@ -39,6 +37,7 @@ header {
 
 #header-image img {
     width: 250px;
+    height: auto;
     margin: 10%;
     border-radius: 250px;
     border: 3px solid black;
@@ -121,6 +120,16 @@ footer p {
     height: 12em;
 }
 
-@media screen  {
-    
+@media only screen and (max-width: 900px) {
+    #header-text h1 {
+        font-size: 4rem;
+        height: 
+        10rem;
+    }
+
+    #header-image img {
+        width: 100px;
+        height: auto;
+        display: inline;
+    }
 }
